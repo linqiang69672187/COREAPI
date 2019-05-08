@@ -46,6 +46,8 @@ namespace WEBAPIDemo.Controllers
                 Address = "浙江"
 
             };
+           // redisHelper.SetEntryInHash("Hash", "Name", "wujf");
+
             redisHelper.SetHashValue("user:123", person);
 
             var ts = new TestParam();

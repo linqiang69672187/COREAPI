@@ -54,6 +54,10 @@ namespace WEBAPIDemo.DbComponet
             return true;
         }
 
-        
+        public bool SetHashValue(string key, string sub-key,string value)
+        {
+            return true;
+
+        }
     }
 }
