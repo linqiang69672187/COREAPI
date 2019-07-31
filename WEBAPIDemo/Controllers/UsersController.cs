@@ -17,7 +17,7 @@ namespace WEBAPIDemo.Controllers
         [HttpGet]
         public IEnumerable<string> Get()
         {
-            return new string[] { "WEB API", "ASP.NET Core" };
+            return new string[] { "WEB API61", "ASP.NET Core" };
         }
 
         // GET api/<controller>/5
